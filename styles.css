@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+    padding-top: 1em;
+  }
+hr {
+    border: 1px solid #333;
+  }
+ul,
+ol {
+    margin-left: 1em;
+  }
+footer {
+    margin-top: 5em;
+  }
+a {
+    font-weight: bold;
+    font-style: italic;
+    color: midnightblue;
+  }
+a:hover {
+    text-decoration: underline crimson;
+    font-weight: bold;
+    color: crimson;
+  }
+input {
+    border: 1px dashed midnightblue;
+    width: calc(value(form));
+  }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 1em;
+    border: double;
+    border-color: midnightblue;
+    padding: 5px;
+    width: 20em;
+  }
+.etiqueta {
+    font-size: larger;
+    text-decoration: underline 2px midnightblue;
+    color: midnightblue;
+  }
+.etiqueta:hover {
+    font-weight: bold;
+    text-decoration-color: crimson;
+    color: crimson;
+  }
+.noticia {
+    margin: 1em;
+  }
+.subtitulo {
+    color:crimson;
+    font-size: larger;
+  }
+.contenido {
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+.titulo {
+    font-size: 30px;
+    margin-bottom: 1em;
+    color: midnightblue;
+  }
+.elementoForm {
+    align-self: flex-end;
+  }
+#principal {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    margin: 1em;
+    color: indigo;
+  }
+#navegador {
+    display: flex;
+    justify-content: space-evenly;
+  }
+#cajaimagen {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+  }
+#apellido,
+#edad,
+#password {
+    justify-self: flex-end;
+  }
+#boton {
+    margin: 1em;
+    border: 3px groove;
+    height: 2em;
+    width: 5em;
+    align-self: center;
+    font-weight: bold;
+}
+#boton:hover {
+    color: crimson;
+    border: 3px groove crimson;
+}

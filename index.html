@@ -4,62 +4,74 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Mi Primer Sitio Web</title>
+      <link rel="stylesheet" type="text/css" href="./reset.css" />
+      <link rel="stylesheet" type="text/css" href="./styles.css" />
    </head>
    <body>
       <header>
-         <h1>Este es el título principal de mi página web</h1>
+         <h1 id="principal">ESTE ES EL TÍTULO PRINCIPAL DE MI PÁGINA WEB</h1>
 
-         <span>HOME</span>
-         <span>NOTICIAS</span>
-         <span>EL CLIMA</span>
-
+         <div id="navegador">
+            <span class="etiqueta">HOME</span>
+            <span class="etiqueta">NOTICIAS</span>
+            <span class="etiqueta">EL CLIMA</span>
+         </div>
+            
       </header>
       <main>
-         
-         <img src="./unnamed.webp">
+         <div id="cajaimagen">
+            <img src="./unnamed.webp">
+         </div>
 
          <section>                     
          
-            <h2>Este es un título de una sección de noticias</h2>
-         
-            <article>
-               
-               <h3>Esta es la noticia N°1</h3>
+            <h2 class="titulo">Este es un título de una sección de noticias</h2>
+            <div class="noticia">
+               <article>
 
-               <div>
-                  <p>Este será el primer párrafo de mi noticia y es una noticia muy importante</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cupiditate dolorem dolores, et corporis quo? Accusamus soluta enim dolorum, atque voluptatem, sapiente at necessitatibus quos deleniti architecto autem! Dolor, at?</p>
-               </div>
-            </article>
+                  <h3 class="subtitulo">Esta es la noticia N°1</h3>
+                  
+                  <div class="contenido">
+                     <p>Este será el primer párrafo de mi noticia y es una noticia muy importante</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cupiditate dolorem dolores, et corporis quo? Accusamus soluta enim dolorum, atque voluptatem, sapiente at necessitatibus quos deleniti architecto autem! Dolor, at?</p>
+                  </div>
+                  
+               </article>
+            </div>
                
             <hr/>
-               
-            <article>
-            
-               <h3>Esta es la noticia N°2</h3>
-               <p>Este es un listado de cosas importantes para esta noticia</p>
-
-               <ol>
-                  <li>Este es el item 1</li>
-                  <li>Este es el item 2</li>
-                  <li>Este es el item 3</li>
-               </ol>
-            
-            </article>
+            <div class="noticia">
+               <article>
+                  
+                  <h3 class="subtitulo">Esta es la noticia N°2</h3>
+                  <div class="contenido">
+                     <p>Este es un listado de cosas importantes para esta noticia</p>
+                     
+                     <ol>
+                        <li>Este es el item 1</li>
+                        <li>Este es el item 2</li>
+                        <li>Este es el item 3</li>
+                     </ol>                    
+                  </div>
+               </article>
+            </div>
 
             <hr/> 
-
-            <article>          
-   
-               <h3>Esta es la noticia N°3</h3>
-               <p>Este listado de cosas importantes no estará ordenado</p>
-
-               <ul>
-                  <li>Este es un elemento</li>
-                  <li>Este es un elemento adicional</li>
-                  <li>Este es otro elemento adicional</li>
-               </ul>
-            </article>
+            <div class="noticia">
+               <article>          
+                  
+                  <h3 class="subtitulo">Esta es la noticia N°3</h3>
+                  <div class="contenido">
+                     <p>Este listado de cosas importantes no estará ordenado</p>
+                     
+                     <ul>
+                        <li>Este es un elemento</li>
+                        <li>Este es un elemento adicional</li>
+                        <li>Este es otro elemento adicional</li>
+                     </ul>
+                  </div>
+               </article>
+            </div>
          </section>
       </main>
       <footer>
